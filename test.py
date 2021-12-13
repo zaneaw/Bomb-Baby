@@ -1,4 +1,4 @@
-import bb4
+import bombbaby
 import random
 
 def print_decorator(func_to_dec):
