@@ -1,10 +1,11 @@
 # Explanation
 
-I first 'solved' this problem by implementing a Breadth First Search Algorithm. I quickly realized that when the results have the potential to be 10^50, or 1 with 50 zero's behind it. So I had to hit the drawing board and solve this with some outside of the box thinking!
+I first 'solved' this problem by implementing a Breadth-First Search Algorithm. I quickly realized that when the results have the potential to be 10^50, or 1 with 50 zero's behind it. So I had to hit the drawing board and solve this with some outside-of-the-box thinking!
 
-I recognized pretty fast that I needed to work backwards to solve this problem. I tried to use a simple subtraction method, but upon further testing, realized that it wouldn't be possible if the inputs were too far apart. Something like 10 with 50 zero's behind it and 1 being subtracted down to an answer... Not going to work!
+I recognized pretty fast that I needed to work backward to solve this problem. I tried to use a simple subtraction method, but upon further testing, realized that it wouldn't be possible if the inputs were too far apart. Something like 10 with 50 zero's behind it and 1 being subtracted down to an answer... Not going to work!
 
-Then it hit me, I had to divide it! And that was great because it drastically cut down on the runtime, no matter how large the numbers were or how far apart they were. There was still an issue here though! There was no way to track the partial 'cycles'. That's where the Modulo Operator comes into play. Which is a really simple Python function but it was that special, final ingredient for me to solve this!  
+Then it hit me, I had to divide it! And that was great because it drastically cut down on the runtime, no matter how large the numbers were or how far apart they were. There was still an issue here though! There was no way to track the partial 'cycles'. That's where the Modulo Operator comes into play. This is a really simple Python function but it was that special, final ingredient for me to solve this!
+
 
 **Voila! Problem solved!**
 
